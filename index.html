@@ -1,0 +1,286 @@
+<link href="https://fonts.gstatic.com" rel="preconnect" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100&amp;display=swap" rel="stylesheet" />
+<style type="text/css">html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	line-height : normal;
+}
+.Page ,
+.intrum-masonry-root ,
+.PhotoGallery {
+	max-width: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.PhotoGallery {
+	max-width: 620px;
+}
+
+.PageMap img {
+	width: 100%;
+}
+
+
+div.ImagePreviewWrapper img {
+	display: block;
+	width: 100%;
+	height:auto;
+}
+
+div.ImagePreviewWrapper pastetag {
+	display: inline-block;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+div.ImagePreviewWrapper pastetag > span {
+	display: inline-block;
+	width: 100%;
+	height:100%;
+	margin : 0!important;
+	padding : 0!important;
+	overflow: hidden;;
+}
+
+@media print {
+	body ,
+	html {
+		width: 100%;
+		height: 100%;
+		margin : 0;
+		padding : 0;
+	}
+
+	.Page {
+		width: 100%!important;
+		height: 100%;
+		max-width: none!important;
+		overflow: hidden;
+	}
+
+	.PhotoGallery {
+		max-width: none!important;
+	}
+
+	.Page table {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	.Page:not(.Page0) {
+		page-break-before: always;
+	}
+
+	div.ImagePreviewWrapper img {
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.Print div.ImagePreviewWrapper img {
+	height: 100%;
+	object-fit: cover;
+}
+
+
+body.cke_editable pastetag img.placeholder {
+	display: block!important;
+}
+
+.Print.Landscape div.ImagePreviewWrapper ,
+.PDF.Landscape div.ImagePreviewWrapper {
+	height: 140mm;
+}
+
+.Print.Portrait div.ImagePreviewWrapper ,
+.PDF.Portrait div.ImagePreviewWrapper {
+	height: 220mm;
+}
+
+
+div.ImagePreviewWrapper img ,
+div.ImagePreviewWrapper span {
+	width: 100%;
+}
+.PDF.Landscape div.ImagePreviewWrapper img {
+	width: 1047px;
+}
+.PDF.Portrait div.ImagePreviewWrapper img {
+	width: 717px;
+}
+
+.PDF.Landscape .FullheightElement {
+	height: 717px;
+}
+.PDF.Portrait .FullheightElement {
+	height: 1047px;
+}
+
+.PDF .intrum-masonry-root ,
+.PDF .Page ,
+.PDF .PhotoGallery {
+	max-width: none!important;
+	margin : 0!important;
+}
+
+.Print .intrum-masonry-root ,
+.Print .Page ,
+.Print .PhotoGallery {
+	max-width: none!important;
+	margin : 0!important;
+}
+
+.Print .padded-td ,
+.PDF .padded-td {
+	padding: .4mm!important;
+    padding-left: .3mm!important;
+    padding-right: 0!important;
+}
+
+.Print .PhotoGallery {
+	display: inline!important;
+}
+
+.MapWrapper img {
+	max-width: 100%;
+}
+
+.Landscape .MapWrapper img {
+	max-height: 50mm;
+}
+
+
+body.Landscape tr.Landscape {
+	display: table-row:important;
+}
+
+body.Landscape td.Landscape {
+	display: table-cell!important;
+}
+</style>
+<div class="Page Page0" style="max-width: 650px;margin:0 auto;">
+<table style="table-layout: fixed;width: 100%;height: 100%;border-collapse: collapse;overflow: hidden;">
+	<tbody style="height: 100%;overflow: hidden;">
+		<tr>
+			<td style="width: 5mm">&nbsp;</td>
+			<td colspan="2" style="height: 5mm">&nbsp;</td>
+			<td style="width: 5mm">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td class="padded-td" colspan="2" style="border: solid .5mm;line-height: 0;position: relative;overflow: hidden;vertical-align: top;padding: 0;">
+			<div class="ImagePreviewWrapper">{{{Фото Фасад+МОПЫ#0}}}</div>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="background: #4f91a9;">&nbsp;</td>
+			<td colspan="2" style="border:solid .5mm;">
+			<table style="width: 100%;height: 100%;table-layout: fixed;">
+				<tbody>
+					<tr>
+						<td style="vertical-align: top;padding:5mm 10mm;">
+						<div><img alt="" src="https://rokosspb.intrumnet.com/images/logos/main/logo.png?1642621450" style="width: 200px; height: 72px;" /></div>
+						{{{Название компании#1}}}
+
+						<div>Ваш риэлтор: {{{Фамилия#2}}}{{{Номер телефона, выгружаемый на внешние сервисы: доски объявлений, сайт компании#3}}}</div>
+
+						<div>{{{Email#4}}}</div>
+						</td>
+						<td style="padding:5mm 10mm;text-align: right;border-left: solid .5mm;">
+						<div style="font-size:28px;">{{{Улица#5}}} {{{Дом#6}}}</div>
+
+						<div style="font-size:18px;">{{{Населенный пункт#7}}}</div>
+
+						<div style="font-size:18px;">&nbsp;</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="Page Page1 About" style="max-width: 650px;margin:0 auto">
+<table style="table-layout: fixed;width: 100%;height: 100%;max-width: 100%;max-height: 100%;border-collapse: collapse;;overflow: hidden;">
+	<tbody>
+		<tr>
+			<td style="width: 5mm">&nbsp;</td>
+			<td colspan="2" style="height: 5mm">&nbsp;</td>
+			<td style="width: 5mm">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td style="padding:10mm;border:solid .5mm;vertical-align: top;">
+			<div style="font-size: 28px;font-weight: bold;">{{{Название#8}}}</div>
+
+			<div style="font-size: 18px;font-weight: bold;">&nbsp;</div>
+
+			<div style="font-size: 18px;font-weight: bold;">&nbsp;</div>
+
+			<p>{{{Рекламное описание#9}}}</p>
+
+			<div style="font-size: 28px;font-weight: bold;">{{{МАП#10}}} {{{Валюта#11}}}</div>
+			</td>
+			<td rowspan="2" style="border:solid .5mm;vertical-align: top;">
+			<div class="MapWrapper" style="width: 100%;text-align: center;padding:5mm;padding-bottom: 0;box-sizing: border-box;">{{{Карта#12}}}</div>
+
+			<div style="padding:10mm;">
+			<div style="font-size: 24px;font-weight: bold;">Характеристика недвижимости</div>
+
+			<ul>
+				<li>id: {{{ID#13}}}</li>
+				<li>Тип: ///Тип недвижимости#17///</li>
+				<li>Площадь: ///Общая площадь (кв.м.)#18///</li>
+				<li>Комнаты: ///Комнат в квартире#19///</li>
+				<li>Площадь кухни: ///Площадь кухни (кв.м.)#20///</li>
+				<li>Этаж / Этажей: ///Этаж#21/// / ///Этажей в здании#22///</li>
+				<li>Куда выходят окна: ///Куда выходят окна#23///</li>
+				<li>Высота потолков: ///Высота потолков (м.)#24///</li>
+				<li>Балкон/Лоджия: ///Балкон/Лоджия#25////</li>
+			</ul>
+
+			<div style="font-size: 24px;font-weight: bold;">Характеристики здания</div>
+
+			<ul>
+				<li>Год постройки: ///Год постройки#26///</li>
+				<li>Перекрытия: ///Перекрытия#27///</li>
+				<li>Материал стен: ///Материал стен#28///</li>
+				<li>Система отопления: ///Система отопления#29///</li>
+				<li>Охрана здания: ///Охрана здания#30///</li>
+			</ul>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="background: #4f91a9;">&nbsp;</td>
+			<td rowspan="2" style="padding:10mm;border: solid .5mm;">
+			<p>///Название компании#31///</p>
+
+			<p>///Филиал / Адрес#32///</p>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="border: solid .5mm;">
+			<div style="padding:10mm;"><strong>///Филиал / Сайт#33///</strong></div>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div style="max-width: 650px;margin:0 auto">{{{Планировка офиса#14}}}</div>
+
+<div class="PhotoGallery" style="max-width: 620px;margin:0 auto">{{{Фото актуальные#15}}}</div>
