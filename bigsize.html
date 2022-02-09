@@ -1,0 +1,519 @@
+<!-- шаблон для большого размера  -->
+
+<link href="https://fonts.gstatic.com" rel="preconnect" />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100&amp;display=swap" rel="stylesheet" />
+<link href="./style.css" rel="stylesheet" />
+<link href="http://fonts.cdnfonts.com/css/verdana" rel="stylesheet" />
+<style type="text/css">html {
+    height: 100%;
+    width: 100%;
+  }
+  #info{
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  font-size: 12px;
+  text-align: end;
+  padding: 5px;
+}
+  * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+
+  }
+  body {
+    width: 100%;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    line-height: normal;
+  }
+  .Page {
+  
+    margin: 0% auto;
+
+  }
+  .header {
+    width: 87%;
+    float: right;
+        background: #2d3538;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    box-sizing: border-box;
+    color: white;
+     position: relative;
+  }
+  .header-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: -9%;
+    overflow:hidden;
+  }
+  .header-img>pastetag>span>img{
+    width:106%;
+    height:100%;
+  }
+  .header-list {
+    /* font-size: 22px; */
+  }
+  .header-list > ul {
+    list-style-type: none;
+    line-height: 25px;
+   
+  }
+  .header-list > ul > li > span {
+   color:#ff4d32;
+    margin-right: 10px;
+  }
+ 
+  .header-list > ul > li > span>svg {
+    margin-right: 5px;
+    transform: translateY(3px);
+  }
+  .header-list > ul > li > span>img {
+    width: 15px;
+    height: 15px;
+    color:#ff4d32;
+    margin-right: 10px;
+  }
+
+  .header-list > ul > li > span>pastetag {
+    color: white;
+    font-size:14px;
+    font-weight:600;
+  }
+  .header-list > ul > li >pastetag{
+    color: white;
+    font-size:14px;
+    font-weight:600;
+     margin-left: 5px;
+  }
+
+  .header-logo {
+    text-align: center;
+    font-weight: 800;
+   
+  }
+  .header-logo > h2 {
+    font-size: 28px;
+  }
+  .header-logo > h2 > span {
+    color: orangered;
+  }
+  .header-logo > h2 >pastetag> span>img {
+    margin-left: 3px;
+  }
+  .header-logo > p {
+    font-size: 16px;
+  }
+  #sometext{
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+ font-size: 4px;
+  }
+  /*  */
+  .content {
+    margin-top: 150px;
+    /* border: 2px solid black; */
+    padding: 15px 20px;
+  }
+  .content > h2 {
+    text-align: center;
+   font-size: 22px;
+    font-weight: 900;
+    line-height: 90px;
+
+  }
+  .content-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .item-table {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .item-table>p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom:24px;
+  }
+  .item-table>pastetag{
+    font-size: 20px;
+   font-weight: 700;
+    margin-bottom: 15px;
+    margin-top:-20px;
+  }
+  .item-photo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  #h3 {
+    font-weight: 900;
+  }
+  .item-photo{
+    font-size:22px;
+    font-weight:300;
+  }
+
+  .item-photo>span>pastetag{
+    font-size:20px;
+    font-size: 300;
+  }
+  .item-photo>svg{
+    width:15px;
+    height: 15px;
+  }
+  item-photo>hr{
+    margin-top: 5px;
+    margin-bottom:5px
+  }
+  .item-photo>img{
+    width: 20px;
+  }
+   .item-photo>span{
+    font-weight:200;
+  }
+  .item-photo>span>span{
+    font-size:16px;
+  }
+  .item-photo-img {
+    border: 2px solid black;
+    padding: 5px 10px;
+    height: 420px;
+  }
+  .item-photo-img>pastetag{
+    width:100%;
+    height:100%;
+  }
+  .item-photo-img>pastetag>img{
+    width:100%;
+    height:100%;
+  }
+  .content-catalog-photo {
+    margin-top: 20px;
+  }
+  .content-catalog-photo > pastetag>span>span{
+    width: 100%;
+  }
+  .content-catalog-photo > div > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*  */
+  /* Стили таблицы (IKSWEB) */
+  table.iksweb {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  table.iksweb th {
+    font-weight: normal;
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #000000;
+  }
+  table.iksweb td {
+    font-size: 11px;
+    width: 50%;
+    color: #000000;
+  }
+  table.iksweb td,
+  table.iksweb th {
+    white-space: pre-wrap;
+    padding: 5px 5px;
+    line-height: 14px;
+    font-size:14px;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    font-weight: 700;
+  }
+  table.iksweb tr:hover {
+    background-color: #f9fafb;
+  }
+  table.iksweb tr:hover td {
+    color: #000000;
+    cursor: default;
+  }
+
+  /*  */
+  .our-info {
+    margin-top: 100px;
+    position: relative;
+  }
+  .top-block {
+    padding: 15px 20px;
+  }
+  .top-block1,
+  .top-block2 {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+  }
+  .top-block2 {
+    margin-top: 20px;
+  }
+  .top-block1 > div,
+  .top-block2 > div {
+    border: 2px solid black;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    font-size:15px;
+    font-weight: 600;
+  }
+  #telephone-icon {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+    width: 350px;
+    height: 50px;
+    background: #2d3538;
+    padding-top: 10px;
+  }
+  #telephone-icon > a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 2px;
+  }
+  #telephone-icon > a >img{
+    width:15px;
+    height: 15px;
+  }
+    #telephone-icon>pastetag {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  /*  */
+  .mid-block {
+    padding: 15px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 2px solid black; */
+    gap: 15px 25px;
+  }
+  .mid-block-about {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .mid-block-about>pastetag {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .mid-block-about>pastetag>span>img {
+    width: 300px;
+  }
+
+    .mid-block-about>pastetag {
+  }
+  .mid-about-item {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+
+  }
+  .mid-block-opisanie{
+        grid-column-end: 5;
+    grid-column-start: 1;
+     width: 100%;
+    height: auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size:20px;
+  }
+  .mid-about-item:nth-child(even) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .mid-about-item:nth-child(odd) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .mid-block-flat {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 200px;
+    border: 2px solid black;
+
+  }
+  /*  */
+  .show {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 650px;
+    height: 650px;
+  }
+</style>
+<table class="iksweb3">
+	<tbody>
+		<tr>
+			<td>
+			<div class="Page">
+			<div class="modal">&nbsp;</div>
+
+			<div class="header">
+			<div class="header-img">{{{Аватар#0}}}</div>
+
+			<div class="header-list">
+			<ul>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M86,26.875c-14.84265,0 -26.875,12.03235 -26.875,26.875c0,14.84265 12.03235,26.875 26.875,26.875c14.84265,0 26.875,-12.03235 26.875,-26.875c0,-14.84265 -12.03235,-26.875 -26.875,-26.875zM86,86c-29.67131,0.03377 -53.71623,24.07869 -53.75,53.75c0,2.96853 2.40647,5.375 5.375,5.375h96.75c2.96853,0 5.375,-2.40647 5.375,-5.375c-0.03377,-29.67131 -24.07869,-53.71623 -53.75,-53.75z"></path></g></g></svg>{{{Фамилия#1}}} {{{Имя#2}}}</span></li>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M134.2675,161.68c-0.05375,0 -0.1075,0 -0.16125,0c-25.85375,-0.84656 -56.14187,-25.9075 -77.01031,-46.78937c-20.89531,-20.88188 -45.95625,-51.18344 -46.7625,-76.91625c-0.29562,-9.03 21.86281,-25.08781 22.09125,-25.24906c5.75125,-4.00438 12.13406,-2.58 14.75438,1.04812c1.77375,2.45906 18.57062,27.90969 20.39812,30.79875c1.89469,2.99656 1.6125,7.45781 -0.7525,11.9325c-1.30344,2.48594 -5.63031,10.09156 -7.65937,13.63906c2.19031,3.1175 7.98187,10.76344 19.94125,22.72281c11.97281,11.95937 19.60531,17.76437 22.73625,19.95469c3.5475,-2.02906 11.15312,-6.35594 13.63906,-7.65937c4.4075,-2.33813 8.84187,-2.63375 11.86531,-0.77938c3.09063,1.89469 28.47406,18.77219 30.81219,20.39813c1.96187,1.38406 3.225,3.74906 3.48031,6.50375c0.24188,2.78156 -0.61812,5.72437 -2.40531,8.29094c-0.14781,0.215 -16.0175,22.10469 -24.96688,22.10469z"></path></g></g></svg>{{{Телефон#3}}}</span></li>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M30.57031,41.35049c-1.70123,-0.00139 -3.33919,0.64493 -4.58109,1.80763l55.58847,37.42554c2.24161,1.52063 5.17805,1.54289 7.44246,0.05643l57.1658,-37.31137c-1.25828,-1.26715 -2.97051,-1.9793 -4.75627,-1.97823zM23.85156,49.81979v74.11096c0.00426,3.7089 3.00985,6.71449 6.71875,6.71875h110.85938c3.7089,-0.00426 6.71449,-3.00985 6.71875,-6.71875v-73.85967l-55.452,36.19267c-4.52569,2.97043 -10.3939,2.92694 -14.87507,-0.11023z"></path></g></g></svg>{{{Email#4}}}</span></li>
+			</ul>
+			</div>
+
+			<div class="header-logo">
+			<h2>{{{Логотип#5}}}<br />
+			Агентство недвижимости</h2>
+			</div>
+			</div>
+
+			<div class="content">
+			<h2>Коммерческое предложение по аренде офисного помещения</h2>
+
+			<div class="content-items">
+			<div class="item-table">
+			<p>{{{Наименование (Группа объектов)#6}}}</p>
+
+			<table class="iksweb">
+				<tbody>
+					<tr>
+						<td>Тип здания</td>
+						<td>{{{Тип здания#7}}}</td>
+					</tr>
+					<tr>
+						<td>Год постройки/сдачи</td>
+						<td>{{{Год постройки/сдачи#8}}}</td>
+					</tr>
+					<tr>
+						<td>Класс</td>
+						<td>{{{Класс#9}}}</td>
+					</tr>
+					<tr>
+						<td>Этаж/Этажей в здании</td>
+						<td>{{{Этаж#10}}}/{{{Этажей в здании#11}}}</td>
+					</tr>
+					<tr>
+						<td>Высота потолков (м.)</td>
+						<td>{{{Высота потолков (м.)#12}}}</td>
+					</tr>
+					<tr>
+						<td>Система отопления</td>
+						<td>{{{Система отопления#13}}}</td>
+					</tr>
+					<tr>
+						<td>Система водоснабжения</td>
+						<td>{{{Система водоснабжения#14}}}</td>
+					</tr>
+					<tr>
+						<td>Лифты в здании</td>
+						<td>{{{Лифты в здании#15}}}</td>
+					</tr>
+					<tr>
+						<td>Охрана здания</td>
+						<td>{{{Охрана здания#16}}}</td>
+					</tr>
+					<tr>
+						<td>Наличие пожарной сигнализации</td>
+						<td>{{{Наличие пожарной сигнализации#17}}}</td>
+					</tr>
+					<tr>
+						<td>Общая площадь (кв.м)</td>
+						<td>{{{Общая площадь (кв.м)#18}}}</td>
+					</tr>
+					<tr>
+						<td>ИФНС</td>
+						<td>{{{ИФНС#19}}}</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+
+			<div class="item-photo">{{{Улица#20}}} {{{Дом#21}}}<br />
+			<img src="https://img.icons8.com/emoji/48/000000/circled-m-emoji.png" /> <span>{{{Метро#22}}}​ <span>​{{{Удаленность от Метро#23}}} M</span></span>
+
+			<div class="item-photo-img">{{{Карта#24}}}</div>
+			</div>
+			</div>
+
+			<div class="content-catalog-photo">{{{Фото Фасад+МОПЫ#25}}}</div>
+			</div>
+
+			<div class="our-info">
+			<div id="telephone-icon"><a href="#"><svg height="20" style=" fill:#000000;" viewbox="0 0 172 172" width="20" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M134.2675,161.68c-0.05375,0 -0.1075,0 -0.16125,0c-25.85375,-0.84656 -56.14187,-25.9075 -77.01031,-46.78937c-20.89531,-20.88188 -45.95625,-51.18344 -46.7625,-76.91625c-0.29562,-9.03 21.86281,-25.08781 22.09125,-25.24906c5.75125,-4.00438 12.13406,-2.58 14.75438,1.04812c1.77375,2.45906 18.57062,27.90969 20.39812,30.79875c1.89469,2.99656 1.6125,7.45781 -0.7525,11.9325c-1.30344,2.48594 -5.63031,10.09156 -7.65937,13.63906c2.19031,3.1175 7.98187,10.76344 19.94125,22.72281c11.97281,11.95937 19.60531,17.76437 22.73625,19.95469c3.5475,-2.02906 11.15312,-6.35594 13.63906,-7.65937c4.4075,-2.33813 8.84187,-2.63375 11.86531,-0.77938c3.09063,1.89469 28.47406,18.77219 30.81219,20.39813c1.96187,1.38406 3.225,3.74906 3.48031,6.50375c0.24188,2.78156 -0.61812,5.72437 -2.40531,8.29094c-0.14781,0.215 -16.0175,22.10469 -24.96688,22.10469z"></path></g></g></svg></a> {{{Телефон#26}}}</div>
+
+			<div class="top-block">
+			<div class="top-block1">
+			<div>Площадь офиса м&sup2;:<br />
+			{{{Площадь помещения (кв.м)#27}}}</div>
+
+			<div>Ставка за 1 м&sup2;/мес:<br />
+			{{{Цена за кв.м. в месяц#28}}}</div>
+
+			<div>Арендная плата в месяц:<br />
+			{{{МАП#29}}}</div>
+			</div>
+
+			<div class="top-block2">
+			<div>Этаж:{{{Этаж#30}}}</div>
+
+			<div>НДС:{{{НДС#31}}}</div>
+
+			<div>Обеспечительный платёж:<br />
+			{{{Обеспечительный платеж#32}}}</div>
+			</div>
+			</div>
+
+			<div class="mid-block">
+			<div class="mid-block-opisanie">{{{Рекламное описание#33}}}</div>
+
+			<div class="mid-block-about">{{{Фото отделки типовые#34}}}{{{Планировка офиса#35}}}{{{Фото актуальные#36}}}</div>
+			</div>
+
+			<div class="header">
+			<div class="header-img">{{{Аватар#37}}}</div>
+
+			<div class="header-list">
+			<ul>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M86,26.875c-14.84265,0 -26.875,12.03235 -26.875,26.875c0,14.84265 12.03235,26.875 26.875,26.875c14.84265,0 26.875,-12.03235 26.875,-26.875c0,-14.84265 -12.03235,-26.875 -26.875,-26.875zM86,86c-29.67131,0.03377 -53.71623,24.07869 -53.75,53.75c0,2.96853 2.40647,5.375 5.375,5.375h96.75c2.96853,0 5.375,-2.40647 5.375,-5.375c-0.03377,-29.67131 -24.07869,-53.71623 -53.75,-53.75z"></path></g></g></svg>{{{Фамилия#38}}} {{{Имя#39}}}</span></li>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M134.2675,161.68c-0.05375,0 -0.1075,0 -0.16125,0c-25.85375,-0.84656 -56.14187,-25.9075 -77.01031,-46.78937c-20.89531,-20.88188 -45.95625,-51.18344 -46.7625,-76.91625c-0.29562,-9.03 21.86281,-25.08781 22.09125,-25.24906c5.75125,-4.00438 12.13406,-2.58 14.75438,1.04812c1.77375,2.45906 18.57062,27.90969 20.39812,30.79875c1.89469,2.99656 1.6125,7.45781 -0.7525,11.9325c-1.30344,2.48594 -5.63031,10.09156 -7.65937,13.63906c2.19031,3.1175 7.98187,10.76344 19.94125,22.72281c11.97281,11.95937 19.60531,17.76437 22.73625,19.95469c3.5475,-2.02906 11.15312,-6.35594 13.63906,-7.65937c4.4075,-2.33813 8.84187,-2.63375 11.86531,-0.77938c3.09063,1.89469 28.47406,18.77219 30.81219,20.39813c1.96187,1.38406 3.225,3.74906 3.48031,6.50375c0.24188,2.78156 -0.61812,5.72437 -2.40531,8.29094c-0.14781,0.215 -16.0175,22.10469 -24.96688,22.10469z"></path></g></g></svg>{{{Телефон#40}}}</span></li>
+				<li><span><svg height="15" style=" fill:#000000;" viewbox="0 0 172 172" width="15" x="0px" xmlns="http://www.w3.org/2000/svg" y="0px"><g fill="none" fill-rule="nonzero" font-family="none" font-size="none" font-weight="none" stroke="none" stroke-dasharray="" stroke-dashoffset="0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="1" style="mix-blend-mode: normal" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e54f33"><path d="M30.57031,41.35049c-1.70123,-0.00139 -3.33919,0.64493 -4.58109,1.80763l55.58847,37.42554c2.24161,1.52063 5.17805,1.54289 7.44246,0.05643l57.1658,-37.31137c-1.25828,-1.26715 -2.97051,-1.9793 -4.75627,-1.97823zM23.85156,49.81979v74.11096c0.00426,3.7089 3.00985,6.71449 6.71875,6.71875h110.85938c3.7089,-0.00426 6.71449,-3.00985 6.71875,-6.71875v-73.85967l-55.452,36.19267c-4.52569,2.97043 -10.3939,2.92694 -14.87507,-0.11023z"></path></g></g></svg>{{{Email#41}}}</span></li>
+			</ul>
+			</div>
+
+			<div class="header-logo">
+			<h2>{{{Логотип#42}}}<br />
+			Агентство недвижимости</h2>
+			</div>
+			</div>
+			</div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div id="info">
+<p>Предложение не является публичной офертой и несёт исключительно информационный характер</p>
+</div>
